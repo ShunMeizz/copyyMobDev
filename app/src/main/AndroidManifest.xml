@@ -34,6 +34,18 @@
             android:name=".CoffinProduct"
             android:exported="false" />
         <activity
+            android:name=".DeceasedProfile"
+            android:exported="false" />
+        <activity
+            android:name=".ImmediateNeedForm"
+            android:exported="false" />
+        <activity
+            android:name=".Orbituary"
+            android:exported="false" />
+        <activity
+            android:name=".UserProfile"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
