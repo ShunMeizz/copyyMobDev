@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/alef</item>
+        <item>@font/aleo_bold</item>
+        <item>@font/barlow</item>
+        <item>@font/cantarell</item>
+        <item>@font/farro_bold</item>
+    </array>
+</resources>
