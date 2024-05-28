@@ -43,13 +43,13 @@
                 app:srcCompat="@drawable/siomeow_header" />
 
             <ImageView
-                android:id="@+id/shopCartUrn"
+                android:id="@+id/userProfileUrn"
                 android:layout_width="5dp"
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"
                 android:layout_marginRight="10dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/addtocart" />
+                app:srcCompat="@drawable/userprofile" />
 
         </LinearLayout>
 
@@ -78,7 +78,6 @@
                 android:id="@+id/editText"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/backb"
                 android:layout_alignParentStart="true"
                 android:layout_marginTop="15dp"
                 android:fontFamily="@font/aleo_bold"
@@ -98,6 +97,7 @@
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
                     <ImageView
+                        android:id="@+id/urn1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:src="@drawable/urn1_adultblessing"/>
@@ -126,6 +126,7 @@
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
                     <ImageView
+                        android:id="@+id/urn2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:src="@drawable/urn2_butterfly_landingtoken"/>
@@ -161,6 +162,7 @@
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
                     <ImageView
+                        android:id="@+id/urn3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:src="@drawable/urn3_grecian"/>
@@ -189,6 +191,7 @@
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
                     <ImageView
+                        android:id="@+id/urn4"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:src="@drawable/urn4_silver"/>
@@ -224,6 +227,7 @@
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
                     <ImageView
+                        android:id="@+id/urn5"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:src="@drawable/urn5_angel"/>
@@ -252,6 +256,7 @@
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
                     <ImageView
+                        android:id="@+id/urn6"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:src="@drawable/urn6_flying_doves"/>
@@ -288,6 +293,7 @@
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
                     <ImageView
+                        android:id="@+id/urn7"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:src="@drawable/urn7_keepsake_heart"/>
@@ -316,6 +322,7 @@
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
                     <ImageView
+                        android:id="@+id/urn8"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:src="@drawable/urn8_hummingbird"/>
@@ -353,6 +360,7 @@
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
                     <ImageView
+                        android:id="@+id/urn9"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:src="@drawable/urn9_serenity"/>
@@ -381,6 +389,7 @@
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
                     <ImageView
+                        android:id="@+id/urn10"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:src="@drawable/urn10_teardrop"/>

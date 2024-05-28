@@ -30,4 +30,8 @@
     <string name="flower12_name">Tranquil White Lillies Basket</string>
     <string name="welcome_text">Welcome to St.Siomeow Funeral Home - UTIC Chapel</string>
     <string name="credits">© 2024 St. Siomeow Funeral Services - CITU Chapel.\nAll Rights Reserved.</string>
+    <string name="gcash">Gcash</string>
+    <string name="paypal">Paypal</string>
+    <string name="paymaya">Paymaya</string>
+    <string name="bpi">BPI</string>
 </resources>
