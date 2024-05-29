@@ -598,7 +598,7 @@
                             android:textStyle="bold" />
 
                         <EditText
-                            android:id="@+id/guardname"
+                            android:id="@+id/guard_fname"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="7dp"
@@ -646,7 +646,7 @@
                             android:textStyle="bold" />
 
                         <EditText
-                            android:id="@+id/editTextDate2c"
+                            android:id="@+id/guard_address"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="7dp"
@@ -666,7 +666,7 @@
                             android:textStyle="bold" />
 
                         <EditText
-                            android:id="@+id/editTextTimec"
+                            android:id="@+id/guard_number"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="7dp"

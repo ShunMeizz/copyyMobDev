@@ -5,6 +5,12 @@
       <entry key="app">
         <State />
       </entry>
+      <entry key="death">
+        <State />
+      </entry>
+      <entry key="deatharchive">
+        <State />
+      </entry>
       <entry key="form">
         <State />
       </entry>
