@@ -64,6 +64,7 @@ public class CoffinProduct extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 dialogSuccess.dismiss();
+                startActivity(new Intent(CoffinProduct.this, HomePage.class));
             }
         });
 

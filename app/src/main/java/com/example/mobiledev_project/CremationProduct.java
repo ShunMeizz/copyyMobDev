@@ -63,7 +63,9 @@ public class CremationProduct extends AppCompatActivity {
         btnDialogOk.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
                 dialogSuccess.dismiss();
+                startActivity(new Intent(CremationProduct.this, HomePage.class));
             }
         });
 
