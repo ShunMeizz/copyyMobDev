@@ -74,11 +74,12 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/backb"
                 android:layout_alignParentStart="true"
-                android:layout_marginTop="27dp"
+                android:layout_marginTop="48dp"
+                android:textStyle="bold"
                 android:fontFamily="@font/aleo_bold"
                 android:text="Send Flowers"
-                android:textColor="@android:color/black"
-                android:textSize="28sp"
+                android:textColor="#BF000000"
+                android:textSize="27sp"
                 />
             <RelativeLayout
                 android:layout_width="match_parent"

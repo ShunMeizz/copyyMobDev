@@ -65,6 +65,7 @@ public class SendFlowers extends AppCompatActivity {
                 @Override
                 public void onClick(View view) {
                     dialogSuccess.dismiss();
+                    startActivity(new Intent(SendFlowers.this, HomePage.class));
                 }
             });
 

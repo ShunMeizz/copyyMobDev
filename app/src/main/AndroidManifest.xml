@@ -38,7 +38,7 @@
             android:exported="false" />
         <activity
             android:name=".DeathArchive"
-            android:exported="true" />
+            android:exported="false" />
         <activity
             android:name=".UserProfile"
             android:exported="false" />
