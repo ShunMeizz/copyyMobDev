@@ -42,14 +42,14 @@
                     android:padding="8dp">
 
                     <ImageView
-                        android:id="@+id/imageView3"
+                        android:id="@+id/backButtonOrbitiary"
                         android:layout_width="30dp"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
                         app:srcCompat="@drawable/previous" />
 
                     <TextView
-                        android:id="@+id/textView10"
+                        android:id="@+id/txtDeadHeader"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_marginLeft="20dp"
@@ -90,7 +90,7 @@
                         app:srcCompat="@drawable/user" />
 
                     <TextView
-                        android:id="@+id/textView15a"
+                        android:id="@+id/txtDisplayFullName"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center"
@@ -103,7 +103,7 @@
                         android:textStyle="bold" />
 
                     <TextView
-                        android:id="@+id/textView15"
+                        android:id="@+id/txtDeadDate"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="-date of birth- to -date of death- \n\n 'Be at rest for eternity in heaven' \n - Condolences from St. Siomeow"
@@ -122,8 +122,8 @@
                         android:paddingBottom="10dp">
 
                         <Button
-                            android:id="@+id/button3"
-                            android:layout_width="wrap_content"
+                            android:id="@+id/btnSendflower"
+                            android:layout_width="150dp"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="29dp"
                             android:layout_marginRight="15dp"
@@ -133,14 +133,14 @@
                             android:textSize="13sp" />
 
                         <Button
-                            android:id="@+id/button4"
-                            android:layout_width="wrap_content"
+                            android:id="@+id/btnSendLove"
+                            android:layout_width="150dp"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="15dp"
                             android:layout_marginRight="29dp"
                             android:layout_weight="1"
-                            android:backgroundTint="#1f7a8c"
-                            android:text="✉️ POST MESSAGE"
+                            android:backgroundTint="#FD7F76"
+                            android:text="❤️ GIVE LOVE"
                             android:textSize="13sp" />
                     </LinearLayout>
 
@@ -174,7 +174,7 @@
                         android:background="#979B9E" />
 
                     <TextView
-                        android:id="@+id/textView13"
+                        android:id="@+id/txtDeadAbout"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:justificationMode="inter_word"
@@ -201,7 +201,7 @@
                         android:textSize="16sp" />
 
                     <Button
-                        android:id="@+id/button"
+                        android:id="@+id/btnVisitShop"
                         android:layout_width="150dp"
                         android:layout_marginTop="-10dp"
                         android:layout_marginBottom="20dp"
