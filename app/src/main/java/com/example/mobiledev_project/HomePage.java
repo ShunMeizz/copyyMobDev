@@ -74,7 +74,7 @@ public class HomePage extends AppCompatActivity {
                 return true;
             case R.id.mOrbituary:
                 Toast.makeText(this, "Death Archive Page", Toast.LENGTH_SHORT).show();
-                startActivity(new Intent(HomePage.this, Orbituary.class));
+                startActivity(new Intent(HomePage.this, DeathArchive.class));
                 return true;
             case R.id.mLogOut:
                 Toast.makeText(this, "Log Out", Toast.LENGTH_SHORT).show();
