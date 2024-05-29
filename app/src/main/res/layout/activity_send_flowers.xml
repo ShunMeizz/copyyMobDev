@@ -43,13 +43,13 @@
                 app:srcCompat="@drawable/siomeow_header" />
 
             <ImageView
-                android:id="@+id/shopCartFlowers"
+                android:id="@+id/userProfileFlowers"
                 android:layout_width="5dp"
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"
                 android:layout_marginRight="10dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/addtocart" />
+                app:srcCompat="@drawable/userprofile" />
 
         </LinearLayout>
 
@@ -94,6 +94,7 @@
                     android:orientation="vertical">
 
                     <ImageView
+                        android:id="@+id/flower1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:baselineAligned="false"
@@ -123,6 +124,7 @@
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
                     <ImageView
+                        android:id="@+id/flower2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:src="@drawable/flower2_cherished_moments_red"/>
@@ -158,6 +160,7 @@
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
                     <ImageView
+                        android:id="@+id/flower3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:src="@drawable/flower3_cherished_moments_blue"/>
@@ -186,6 +189,7 @@
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
                     <ImageView
+                        android:id="@+id/flower4"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:src="@drawable/flower4_divine_tribute_cross"/>
@@ -221,6 +225,7 @@
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
                     <ImageView
+                        android:id="@+id/flower5"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:src="@drawable/flower5_eternal_friendship"/>
@@ -249,6 +254,7 @@
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
                     <ImageView
+                        android:id="@+id/flower6"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:src="@drawable/flower6_love_and_honor_wreath"/>
@@ -285,6 +291,7 @@
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
                     <ImageView
+                        android:id="@+id/flower7"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:src="@drawable/flower7_lush_greenery_basket"/>
@@ -313,6 +320,7 @@
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
                     <ImageView
+                        android:id="@+id/flower8"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:src="@drawable/flower8_peace_lily"/>
@@ -349,6 +357,7 @@
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
                     <ImageView
+                        android:id="@+id/flower9"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:src="@drawable/flower9_peach_blessings_garden"/>
@@ -377,6 +386,7 @@
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
                     <ImageView
+                        android:id="@+id/flower10"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:src="@drawable/flower10_splendid_life_spray"/>
@@ -414,6 +424,7 @@
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
                     <ImageView
+                        android:id="@+id/flower11"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:src="@drawable/flower11_sympathy_garden"/>
@@ -442,6 +453,7 @@
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
                     <ImageView
+                        android:id="@+id/flower12"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:src="@drawable/flower12_tranquil_white_lillies_basket"/>

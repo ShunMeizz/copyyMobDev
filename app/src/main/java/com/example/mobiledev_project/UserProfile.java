@@ -14,7 +14,7 @@ public class UserProfile extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_user_profile);
-        backButtonUser = (ImageView) findViewById(R.id.backButtonUser);
+        backButtonUser = findViewById(R.id.backButtonUser);
 
         backButtonUser.setOnClickListener(new View.OnClickListener() {
             @Override

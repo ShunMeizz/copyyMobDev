@@ -66,7 +66,7 @@ public class HomePage extends AppCompatActivity {
                 return true;
             case R.id.cFuneralRite:
                 Toast.makeText(this, "Funeral Rite", Toast.LENGTH_SHORT).show();
-                startActivity(new Intent(HomePage.this, ImmediateNeedForm.class));
+                startActivity(new Intent(HomePage.this, CoffinProduct.class));
                 return true;
             case R.id.cSendFlowers:
                 Toast.makeText(this, "Send Flowers Page", Toast.LENGTH_SHORT).show();
