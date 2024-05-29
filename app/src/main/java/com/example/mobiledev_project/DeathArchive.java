@@ -30,9 +30,9 @@ public class DeathArchive extends AppCompatActivity {
 
     // button pages
     Button[] btnVisitDead;
-    Button btnVisitDead1, btnVisitDead2, btnVisitDead3;
-    Button btnSendflower1, btnSendflower2, btnSendflower3;
-    Button btnSendMessage1, btnSendMessage2, btnSendMessage3;
+    Button[] btnSendflower;
+    Button[] btnSendLove;
+    int[] heartCounts = new int[3];
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -67,6 +67,45 @@ public class DeathArchive extends AppCompatActivity {
                 public void onClick(View v) {
                     Intent intent = new Intent(DeathArchive.this, DeceasedProfile.class);
                     startActivity(intent);
+                }
+            });
+        }
+
+        btnSendflower = new Button[3];
+        btnSendflower[0] = findViewById(R.id.btnSendflower);
+        btnSendflower[1] = findViewById(R.id.btnSendflower1);
+        btnSendflower[2] = findViewById(R.id.btnSendflower2);
+
+        for (Button button : btnSendflower) {
+            button.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Intent intent = new Intent(DeathArchive.this, SendFlowers.class);
+                    startActivity(intent);
+                }
+            });
+        }
+
+        btnSendLove = new Button[3];
+        btnSendLove[0] = findViewById(R.id.btnSendLove);
+        btnSendLove[1] = findViewById(R.id.btnSendLove1);
+        btnSendLove[2] = findViewById(R.id.btnSendLove2);
+
+        for (int i = 0; i < heartCounts.length; i++) {
+            heartCounts[i] = 0;
+        }
+
+        for (int i = 0; i < btnSendLove.length; i++) {
+            btnSendLove[i].setText("❤️ " + heartCounts[i]);
+        }
+
+        for (int i = 0; i < btnSendLove.length; i++) {
+            final int index = i;
+            btnSendLove[i].setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    heartCounts[index]++;
+                    btnSendLove[index].setText("❤️ " + heartCounts[index]);
                 }
             });
         }

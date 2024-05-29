@@ -239,12 +239,12 @@
                                     android:text="💮" />
 
                                 <Button
-                                    android:id="@+id/btnSendMessage"
+                                    android:id="@+id/btnSendLove"
                                     android:layout_width="wrap_content"
                                     android:layout_height="40dp"
                                     android:layout_weight="1"
-                                    android:backgroundTint="#1f7a8c"
-                                    android:text="✉️" />
+                                    android:backgroundTint="#FE897F"
+                                    android:text="❤️" />
 
                             </LinearLayout>
                         </LinearLayout>
@@ -363,12 +363,12 @@
                                     android:text="💮" />
 
                                 <Button
-                                    android:id="@+id/btnSendMessage1"
+                                    android:id="@+id/btnSendLove1"
                                     android:layout_width="wrap_content"
                                     android:layout_height="40dp"
                                     android:layout_weight="1"
-                                    android:backgroundTint="#1f7a8c"
-                                    android:text="✉️" />
+                                    android:backgroundTint="#FE897F"
+                                    android:text="❤️" />
 
                             </LinearLayout>
                         </LinearLayout>
@@ -487,12 +487,12 @@
                                     android:text="💮" />
 
                                 <Button
-                                    android:id="@+id/btnSendMessage2"
+                                    android:id="@+id/btnSendLove2"
                                     android:layout_width="wrap_content"
                                     android:layout_height="40dp"
                                     android:layout_weight="1"
-                                    android:backgroundTint="#1f7a8c"
-                                    android:text="✉️" />
+                                    android:backgroundTint="#FE897F"
+                                    android:text="❤️" />
 
                             </LinearLayout>
                         </LinearLayout>

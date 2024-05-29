@@ -26,8 +26,8 @@ public class HomePage extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home_page);
-        menu = findViewById(R.id.iVMenu);
-        profile = findViewById(R.id.iVUser);
+        menu = findViewById(R.id.menu_bar);
+        profile = findViewById(R.id.user_profile);
 
         menu.setOnClickListener(new View.OnClickListener() {
             @Override
