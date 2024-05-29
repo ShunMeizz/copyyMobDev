@@ -32,22 +32,28 @@
                 android:layout_height="70dp"
                 android:background="#FFFFFF"
                 android:orientation="horizontal"
-                android:padding="8dp">
+                android:padding="10dp">
 
                 <ImageView
-                    android:id="@+id/imageView3"
-                    android:layout_width="60dp"
+                    android:id="@+id/menu_bar"
+                    android:layout_width="25dp"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
-                    android:layout_weight="1"
                     app:srcCompat="@drawable/menu" />
 
                 <ImageView
                     android:id="@+id/imageView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    app:srcCompat="@drawable/siomeow_header" />
+                    app:srcCompat="@drawable/siomeow_header"
+                    android:layout_weight="1"/>
+
+                <ImageView
+                    android:id="@+id/user_profile"
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    app:srcCompat="@drawable/userprofile1" />
 
             </LinearLayout>
 
