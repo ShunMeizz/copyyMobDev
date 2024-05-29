@@ -42,7 +42,7 @@
                     android:padding="8dp">
 
                     <ImageView
-                        android:id="@+id/imageView3"
+                        android:id="@+id/backButtonUser"
                         android:layout_width="23dp"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
