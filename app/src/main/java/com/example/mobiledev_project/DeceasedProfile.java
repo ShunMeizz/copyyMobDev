@@ -23,7 +23,7 @@ public class DeceasedProfile extends AppCompatActivity {
     Button btnSendflower;
     Button btnSendLove;
     Button btnVisitShop;
-
+    private int loveCount = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,7 +40,15 @@ public class DeceasedProfile extends AppCompatActivity {
             }
         });
 
-        btnSendLove = (Button) findViewById(R.id.btnSendLove);
+
+        btnSendLove = findViewById(R.id.btnSendLove);
+        btnSendLove.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                loveCount++;
+                btnSendLove.setText("❤️ GIVE LOVE (" + loveCount + ")");
+            }
+        });
 
 
         btnVisitShop = (Button) findViewById(R.id.btnVisitShop);
