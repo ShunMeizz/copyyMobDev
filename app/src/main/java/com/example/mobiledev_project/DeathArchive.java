@@ -29,6 +29,7 @@ public class DeathArchive extends AppCompatActivity {
     TextView txtDeadAbout, txtDeadAbout1, txtDeadAbout2;
 
     // button pages
+    Button[] btnVisitDead;
     Button btnVisitDead1, btnVisitDead2, btnVisitDead3;
     Button btnSendflower1, btnSendflower2, btnSendflower3;
     Button btnSendMessage1, btnSendMessage2, btnSendMessage3;
@@ -47,12 +48,28 @@ public class DeathArchive extends AppCompatActivity {
                 showPopupMenu(view);
             }
         });
+
         profile.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(DeathArchive.this, UserProfile.class));
             }
         });
+
+        btnVisitDead = new Button[3];
+        btnVisitDead[0] = findViewById(R.id.btnVisitDead);
+        btnVisitDead[1] = findViewById(R.id.btnVisitDead1);
+        btnVisitDead[2] = findViewById(R.id.btnVisitDead2);
+
+        for (Button button : btnVisitDead) {
+            button.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Intent intent = new Intent(DeathArchive.this, DeceasedProfile.class);
+                    startActivity(intent);
+                }
+            });
+        }
     }
 
     private void showPopupMenu(View view) {
