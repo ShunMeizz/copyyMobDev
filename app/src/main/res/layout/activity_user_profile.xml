@@ -77,10 +77,17 @@
                     android:orientation="vertical">
 
                     <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="247dp"
+                        android:layout_gravity="center|start|top"
+                        app:srcCompat="@drawable/headerimg" />
+
+                    <ImageView
                         android:id="@+id/imageView10"
                         android:layout_width="wrap_content"
                         android:layout_height="150dp"
-                        android:layout_marginTop="30dp"
+                        android:layout_marginTop="-90dp"
                         app:srcCompat="@drawable/user" />
 
                     <TextView
