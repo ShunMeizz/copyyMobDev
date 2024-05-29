@@ -37,8 +37,8 @@
             android:name=".ImmediateNeedForm"
             android:exported="false" />
         <activity
-            android:name=".Orbituary"
-            android:exported="false" />
+            android:name=".DeathArchive"
+            android:exported="true" />
         <activity
             android:name=".UserProfile"
             android:exported="false" />
