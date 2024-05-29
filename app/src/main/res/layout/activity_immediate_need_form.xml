@@ -32,22 +32,28 @@
                 android:layout_height="70dp"
                 android:background="#FFFFFF"
                 android:orientation="horizontal"
-                android:padding="8dp">
+                android:padding="10dp">
 
                 <ImageView
-                    android:id="@+id/imageView3"
-                    android:layout_width="60dp"
+                    android:id="@+id/menu_bar"
+                    android:layout_width="25dp"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
-                    android:layout_weight="1"
                     app:srcCompat="@drawable/menu" />
 
                 <ImageView
                     android:id="@+id/imageView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    app:srcCompat="@drawable/siomeow_header" />
+                    app:srcCompat="@drawable/siomeow_header"
+                    android:layout_weight="1"/>
+
+                <ImageView
+                    android:id="@+id/user_profile"
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    app:srcCompat="@drawable/userprofile1" />
 
             </LinearLayout>
 
@@ -137,7 +143,7 @@
                             android:textStyle="bold" />
 
                         <EditText
-                            android:id="@+id/editTextText"
+                            android:id="@+id/dead_lname"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="7dp"
@@ -158,7 +164,7 @@
                             android:textStyle="bold" />
 
                         <EditText
-                            android:id="@+id/editTextText2"
+                            android:id="@+id/dead_mname"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="7dp"
@@ -179,7 +185,7 @@
                             android:textStyle="bold" />
 
                         <EditText
-                            android:id="@+id/editTextText3"
+                            android:id="@+id/dead_fname"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="7dp"
@@ -207,7 +213,7 @@
                             android:textStyle="bold" />
 
                         <EditText
-                            android:id="@+id/editTextDate"
+                            android:id="@+id/dead_birthdate"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="7dp"
@@ -228,7 +234,7 @@
                             android:textStyle="bold" />
 
                         <EditText
-                            android:id="@+id/editTextDate2"
+                            android:id="@+id/dead_deathdate"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="7dp"
@@ -249,7 +255,7 @@
                             android:textStyle="bold" />
 
                         <EditText
-                            android:id="@+id/editTextTime"
+                            android:id="@+id/dead_deathtime"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="7dp"
@@ -446,7 +452,7 @@
                             android:textStyle="bold" />
 
                         <EditText
-                            android:id="@+id/editTextTextb"
+                            android:id="@+id/doctor_fullname"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="7dp"
@@ -467,7 +473,7 @@
                             android:textStyle="bold" />
 
                         <EditText
-                            android:id="@+id/editTextText2b"
+                            android:id="@+id/doctor_emailadd"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="7dp"
@@ -489,7 +495,7 @@
                             android:textStyle="bold" />
 
                         <EditText
-                            android:id="@+id/editTextDateb"
+                            android:id="@+id/doctor_birthdate"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="7dp"
@@ -550,7 +556,7 @@
                             android:textStyle="bold" />
 
                         <EditText
-                            android:id="@+id/editTextTextc"
+                            android:id="@+id/guard_lname"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="7dp"
@@ -571,7 +577,7 @@
                             android:textStyle="bold" />
 
                         <EditText
-                            android:id="@+id/editTextText2c"
+                            android:id="@+id/guard_mname"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="7dp"
@@ -592,7 +598,7 @@
                             android:textStyle="bold" />
 
                         <EditText
-                            android:id="@+id/editTextText3c"
+                            android:id="@+id/guardname"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="7dp"
@@ -620,7 +626,7 @@
                             android:textStyle="bold" />
 
                         <EditText
-                            android:id="@+id/editTextDatec"
+                            android:id="@+id/guard_relationship"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="7dp"
