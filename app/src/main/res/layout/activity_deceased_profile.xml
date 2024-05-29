@@ -36,14 +36,14 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="50dp"
+                    android:layout_height="55dp"
                     android:background="#FFFFFF"
                     android:orientation="horizontal"
                     android:padding="8dp">
 
                     <ImageView
                         android:id="@+id/imageView3"
-                        android:layout_width="30dp"
+                        android:layout_width="23dp"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
                         app:srcCompat="@drawable/previous" />
@@ -53,12 +53,13 @@
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_marginLeft="20dp"
+                        android:layout_marginRight="10dp"
                         android:layout_weight="1"
                         android:gravity="center|right"
-                        android:letterSpacing="0.2"
+                        android:letterSpacing="0.1"
                         android:text="ORBITIARY OF MR. -lastname-"
                         android:textColor="#80000000"
-                        android:textSize="16sp"
+                        android:textSize="15sp"
                         android:textStyle="bold" />
 
                 </LinearLayout>
@@ -106,13 +107,13 @@
                         android:id="@+id/textView15"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="-date of birth- to -date of death- \n\n 'Be at rest for eternity in heaven' \n - Condolences from St. Siomeow"
+                        android:gravity="center"
                         android:paddingLeft="20dp"
                         android:paddingRight="20dp"
                         android:paddingBottom="20dp"
-                        android:textColor="@color/black"
-                        android:textSize="16sp"
-                        android:gravity="center" />
+                        android:text="-date of birth- to -date of death-"
+                        android:textColor="@color/dark_red"
+                        android:textSize="16sp" />
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -125,7 +126,7 @@
                             android:id="@+id/button3"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="29dp"
+                            android:layout_marginLeft="27dp"
                             android:layout_marginRight="15dp"
                             android:layout_weight="1"
                             android:backgroundTint="#f5b5c8"
@@ -137,7 +138,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="15dp"
-                            android:layout_marginRight="29dp"
+                            android:layout_marginRight="27dp"
                             android:layout_weight="1"
                             android:backgroundTint="#1f7a8c"
                             android:text="✉️ POST MESSAGE"
@@ -179,7 +180,7 @@
                         android:layout_height="wrap_content"
                         android:justificationMode="inter_word"
                         android:padding="20dp"
-                        android:text="Johnathan Michael Doe, a beloved husband, father, and grandfather, passed away peacefully on May 20, 2024, at the age of 79, surrounded by his family in Springfield. Born on March 12, 1945, Johnathan served honorably in the U.S. Army before embarking on a distinguished career as a civil engineer with Springfield Municipal Services. His dedication to his work and community was matched only by his love for his family and his passion for gardening, woodworking, and volunteering.\n\nJohnathan is survived by his wife of 52 years, Elizabeth; his children, Jennifer, Michael, and Emily; and his five cherished grandchildren. A memorial service will be held on May 25, 2024, at Springfield Community Church. In lieu of flowers, donations can be made to the Springfield Food Bank or the American Heart Association in his memory. Johnathan's kindness and gentle spirit will be deeply missed by all who knew him."
+                        android:text="-firstname + middle name + lastname-, a beloved of -guardfirstname + guardmiddlename + guardlastname-, passed away peacefully on -Date of Death-, at the age of -computation of deathdate and birthdate-, surrounded by their family in St. Siomeow Cemetery. His dedication to his work and community was matched only by his love for his family."
                         android:textColor="#000000"
                         android:textSize="16sp" />
 
@@ -203,13 +204,12 @@
                     <Button
                         android:id="@+id/button"
                         android:layout_width="150dp"
-                        android:layout_marginTop="-10dp"
-                        android:layout_marginBottom="20dp"
                         android:layout_height="wrap_content"
-                        android:text="VISIT SHOP"
-                        android:textStyle="bold"
+                        android:layout_marginTop="-5dp"
+                        android:layout_marginBottom="20dp"
                         android:backgroundTint="#fa5f26"
-                        />
+                        android:text="VISIT SHOP"
+                        android:textStyle="bold" />
 
                     <androidx.cardview.widget.CardView
                         android:layout_width="match_parent"
